@@ -16,7 +16,7 @@ function App() {
       {/* <HookCounterTwo /> */}
       {/* <HookCounterThree /> */}
       {/* <HooksCounterFour /> */}
-      <ClassCounterOne />
+      {/* <ClassCounterOne /> */}
       <HookCounterOne />
       
 
