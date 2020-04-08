@@ -57,3 +57,8 @@ Rules of Hooks
 "Only Call Hooks from React Functions"
 => Call them from within React functional components and not just any regular JavaScript function
 
+
+
+useEffect 
+=> The Effect Hook lets you perform side effects in functional componenets
+=> It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount
