@@ -1,0 +1,59 @@
+React Hooks
+
+Prerequisites
+> Basics of React
+> Functional and class componenets, props, state, etc.
+
+What are Hooks?
+Hooks are a new addition in React 16.8. 
+They let you use state and other React features without writing a class.
+Ex. State of a componenet
+
+Hooks don't work inside classes
+
+Why Hooks?
+
+Reason Set 1
+Understand how 'this' keywords in JavaScript
+Remember to bind event handlers in class componenets
+Classes don't minify very well and make hot reloading very unrealiable
+
+Reason Set 2
+There is no particular way to reuse stateful component logic
+HOC and render props patterns do address this problem
+Make the code harder to follow
+There is need to share stateful logic in a better way
+
+Reason Set 3
+Create componenets for complex scenarios such as data fetching and suscribing to events
+Related code is not organized in one place
+Ex. Data Fetching - In componentDidMount and componentDidUpdate
+Ex. Event listeners - In componentDidMount and componentWillUnmount
+Because stateful logic - Cannot break componenets into smaller ones
+
+
+Noteworthy Hooks
+To use hooks React version 16.8 or higher needed
+Completely opt in
+Hooks don't contain any breaking changes and the release is 100% backwards-compatible.
+Classes won't be removed from React 
+Can't use Hooks inside of a class component
+Hooks don't replace your knowledge of React concepts
+Instead, Hooks provide a more direct API of the React concepts you already know
+
+
+Summary
+Hooks are a new feature addition in React version 16.8
+They allow you to use React features without having to write a class
+Avoid the whole confusion with 'this' keyword
+Allow you to reuse stateful logic
+Organize the logic inside a component into reusable isolated units
+
+
+Rules of Hooks
+"Only call Hooks at the Top Level"
+=> Don't call Hooks inside loops, conditions, or nested functions
+
+"Only Call Hooks from React Functions"
+=> Call them from within React functional components and not just any regular JavaScript function
+
