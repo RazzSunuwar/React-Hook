@@ -89,3 +89,11 @@ newState = reducer(currentState, action)
 useRducer returns a pair of values.
 [newState, dispatch]
 
+
+useReducer with useContext
+
+userReducer - Local state management
+
+Share state between components - Global state management
+
+useReducer + useContext

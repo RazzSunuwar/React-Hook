@@ -18,37 +18,44 @@ import CounterOne from './components/CounterOne';
 import CounterTwo from './components/CounterTwo';
 import CounterThree from './components/CounterThree';
 
+
+
+
+
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
+
+
+
+
 function App() {
   return (
-    <div className="App">
-      {/* <ClassComponent /> */}
-      {/* <HookCounter /> */}
-      {/* <HookCounterTwo /> */}
-      {/* <HookCounterThree /> */}
-      {/* <HooksCounterFour /> */}
-      {/* <ClassCounterOne /> */}
-      {/* <HookCounterOne /> */}
-      {/* <ClassMouse /> */}
-      {/* < HookMouse /> */} 
-      {/* <MouseContainer /> */}
-      {/* <IntervalClassCounter /> */}
-      {/* <IntervalHookCounter /> */}
-      {/* <DataFetching /> */}
+      <div className="App">
+        {/* <ClassComponent /> */}
+        {/* <HookCounter /> */}
+        {/* <HookCounterTwo /> */}
+        {/* <HookCounterThree /> */}
+        {/* <HooksCounterFour /> */}
+        {/* <ClassCounterOne /> */}
+        {/* <HookCounterOne /> */}
+        {/* <ClassMouse /> */}
+        {/* < HookMouse /> */} 
+        {/* <MouseContainer /> */}
+        {/* <IntervalClassCounter /> */}
+        {/* <IntervalHookCounter /> */}
+        {/* <DataFetching /> */}
 
-      {/* <UserContext.Provider value = 'Robert'>
-        <ChannelContext.Provider value= {'Coding World'}>
-          <ComponentC />
-        </ChannelContext.Provider>
-      </UserContext.Provider> */}
+        {/* <UserContext.Provider value = 'Robert'>
+          <ChannelContext.Provider value= {'Coding World'}>
+            <ComponentC />
+          </ChannelContext.Provider>
+        </UserContext.Provider> */}
 
-      {/* <CounterOne /> */}
-      {/* <CounterTwo /> */}
-      <CounterThree />
+        {/* <CounterOne /> */}
+        {/* <CounterTwo /> */}
+        <CounterThree />
 
-
-    </div>
+      </div>
   );
 }
 
