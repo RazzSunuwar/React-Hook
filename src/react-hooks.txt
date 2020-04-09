@@ -62,3 +62,30 @@ Rules of Hooks
 useEffect 
 => The Effect Hook lets you perform side effects in functional componenets
 => It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount
+
+
+useReducer
+useReducer is a hook that is used for state management
+it is alternative to useState
+useState is built using useReducer
+
+Hooks so far 
+useState - state
+useEffect - side effects 
+useContext - context API
+useReducer - reducers
+
+
+reduce vs useReducer
+
+reduce in JavaScript
+array.reduce(reducer, initialValue)
+singleValue = reducer(accumlator, itemValue)
+reduce methods returns a single value 
+
+useReducer in JavaScript
+useReducer(reducer, initialState)
+newState = reducer(currentState, action)
+useRducer returns a pair of values.
+[newState, dispatch]
+

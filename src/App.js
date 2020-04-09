@@ -14,6 +14,7 @@ import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
 import ComponentC from './components/ComponentC';
+import CounterOne from './components/CounterOne';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -34,13 +35,13 @@ function App() {
       {/* <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
 
-      <UserContext.Provider value = 'Robert'>
+      {/* <UserContext.Provider value = 'Robert'>
         <ChannelContext.Provider value= {'Coding World'}>
           <ComponentC />
         </ChannelContext.Provider>
-      </UserContext.Provider>
-      
+      </UserContext.Provider> */}
 
+      <CounterOne />
 
     </div>
   );
